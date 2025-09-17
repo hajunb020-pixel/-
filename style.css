@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#game-area {
+  position: relative;
+  margin: 20px auto;
+  width: 600px;
+  height: 400px;
+
+  /* 사격.png 파일을 배경으로 */
+  background-image: url('사격.png');
+  background-size: cover;      /* 화면 꽉 채우기 */
+  background-position: center; /* 중앙 정렬 */
+  background-repeat: no-repeat;
+  
+  border: 3px solid #333;
+  overflow: hidden;
+}
+
+#target {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: rgb(229, 255, 0);
+  border-radius: 50%;
+  cursor: crosshair;
+}
+
+#info {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+#start-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
